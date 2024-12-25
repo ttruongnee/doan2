@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoAn2\\Asset\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|d:\\doan2\\asset\\api\\dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|solutionrelative:dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{401FC86E-E127-41E6-896C-DD0A370E3370}|API\\API.csproj|d:\\doan2\\asset\\api\\api\\controllers\\controllerstaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{401FC86E-E127-41E6-896C-DD0A370E3370}|API\\API.csproj|solutionrelative:api\\controllers\\controllerstaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|d:\\doan2\\asset\\api\\bll\\interfaces\\bll_itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\bll_itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|d:\\doan2\\asset\\api\\bll\\bll_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|solutionrelative:bll\\bll_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|d:\\doan2\\asset\\api\\dal\\interfaces\\dal_itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\dal_itaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{401FC86E-E127-41E6-896C-DD0A370E3370}|API\\API.csproj|d:\\doan2\\asset\\api\\api\\controllers\\controllersnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{401FC86E-E127-41E6-896C-DD0A370E3370}|API\\API.csproj|solutionrelative:api\\controllers\\controllersnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|d:\\doan2\\asset\\api\\bll\\interfaces\\bll_inhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\bll_inhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|d:\\doan2\\asset\\api\\bll\\bll_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48DE5B52-EFE2-48B6-9B57-3E8FDB2E3A7F}|BLL\\BLL.csproj|solutionrelative:bll\\bll_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|d:\\doan2\\asset\\api\\dal\\interfaces\\dal_inhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\dal_inhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|d:\\doan2\\asset\\api\\dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B861468-C1CC-448E-A3EE-863486F1477C}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControllersTaiKhoan.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\API\\Controllers\\ControllersTaiKhoan.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ControllersTaiKhoan.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\API\\Controllers\\ControllersTaiKhoan.cs",
+              "RelativeToolTip": "API\\Controllers\\ControllersTaiKhoan.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwIQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:29:17.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BLL_ITaiKhoan.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\BLL\\Interfaces\\BLL_ITaiKhoan.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\BLL_ITaiKhoan.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\BLL\\Interfaces\\BLL_ITaiKhoan.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\BLL_ITaiKhoan.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:29:01.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLL_TaiKhoan.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\BLL\\BLL_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_TaiKhoan.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\BLL\\BLL_TaiKhoan.cs",
+              "RelativeToolTip": "BLL\\BLL_TaiKhoan.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA/wD8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:28:29.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL_ITaiKhoan.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\DAL\\Interfaces\\DAL_ITaiKhoan.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\DAL_ITaiKhoan.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\DAL\\Interfaces\\DAL_ITaiKhoan.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\DAL_ITaiKhoan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:28:11.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DAL_TaiKhoan.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\DAL\\DAL_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_TaiKhoan.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\DAL\\DAL_TaiKhoan.cs",
+              "RelativeToolTip": "DAL\\DAL_TaiKhoan.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAADwv9oAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:23:05.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ControllersNhanVien.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\API\\Controllers\\ControllersNhanVien.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ControllersNhanVien.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\API\\Controllers\\ControllersNhanVien.cs",
+              "RelativeToolTip": "API\\Controllers\\ControllersNhanVien.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:06:53.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BLL_INhanVien.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\BLL\\Interfaces\\BLL_INhanVien.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\BLL_INhanVien.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\BLL\\Interfaces\\BLL_INhanVien.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\BLL_INhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:06:35.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BLL_NhanVien.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\BLL\\BLL_NhanVien.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_NhanVien.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\BLL\\BLL_NhanVien.cs",
+              "RelativeToolTip": "BLL\\BLL_NhanVien.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:06:08.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DAL_INhanVien.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\DAL\\Interfaces\\DAL_INhanVien.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\DAL_INhanVien.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\DAL\\Interfaces\\DAL_INhanVien.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\DAL_INhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:05:44.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DAL_NhanVien.cs",
+              "DocumentMoniker": "D:\\DoAn2\\Asset\\API\\DAL\\DAL_NhanVien.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_NhanVien.cs",
+              "ToolTip": "D:\\DoAn2\\Asset\\API\\DAL\\DAL_NhanVien.cs",
+              "RelativeToolTip": "DAL\\DAL_NhanVien.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswDkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:04:57.164Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

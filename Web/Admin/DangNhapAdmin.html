@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../Asset/IMG/banner/logo.png" type="image/x-icon">
+    <title>
+        Đăng nhập Admin - Nhà xuất bản Kim Đồng
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../Asset/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/Admin/DangNhapAdmin.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/grid.css">
+</head>
+
+<body>
+    <div id="main" class="grid">
+        <div class="container row">
+            <div class="col c-12 l-6 m-6 img-logo" data-tilt>
+                <img src="../../Asset/IMG/banner/nxbKimDong.png" alt="logo">
+            </div>
+
+            <form id="main-form" class="col c-12 l-6 m-6">
+                <span class="main-form-title">
+                    Đăng nhập Admin
+                </span>
+
+                <div class="main-input">
+                    <input id="taikhoan" type="text" placeholder="Username" required>
+                    <span class="icon-input">
+                        <i class="fa fa-user"></i>
+                    </span>
+                </div>
+
+                <div class="main-input">
+                    <input id="matkhau" type="password" placeholder="Password" required>
+                    <span class="icon-input">
+                        <i class="fa fa-lock"></i>
+                    </span>
+                    <span class="icon-input" style="justify-content: flex-end;">
+                        <i class="fas fa-eye hidden" style="pointer-events:auto; cursor: pointer;"></i>
+                    </span>
+
+                    <span class="icon-input" style="justify-content: flex-end;">
+                        <i class="fas fa-eye-slash" style="pointer-events:auto; cursor: pointer;"></i>
+                    </span>
+                </div>
+
+                <button id="main-btn-submit">
+                    Đăng nhập
+                </button>
+                <a class="a-black" href="QuenMatKhauAdmin.html">
+                    Quên mật khẩu?
+                </a> <br>
+                <div class="bottom10">
+                    <a class="a-black" href="DangKyAdmin.html">
+                        Chưa có tài khoản? Đăng ký ngay
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="../../Asset/Admin/DangNhapAdmin.js"></script>
+</body>
+
+</html>

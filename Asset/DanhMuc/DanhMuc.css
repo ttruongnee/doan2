@@ -1,0 +1,68 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMG/banner/banner_img6.jpg');
+    background-attachment: fixed;
+}
+
+
+.title {
+    position: relative;
+    top: 45%;
+    color: white;
+    overflow: hidden;
+
+}
+
+#title-top {
+    text-transform: uppercase;
+}
+
+
+.list-item {
+    margin-top: 35px;
+}
+
+.xemthem {
+    display: none;
+}
+
+.phantrang {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.trang {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 5px;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #333333;
+    color: #333333;
+    background: #fff;
+    cursor: pointer;
+}
+
+.trang:hover,
+.trangchon {
+    color: #fff;
+    background: #d51c24;
+    border: 1px solid #d51c24;
+}
+
+.trangchon:hover {
+    cursor: default;
+}
+
+.product {
+    margin-bottom: 30px;
+}
+
+#tendanhmuc {
+    text-transform: uppercase;
+}

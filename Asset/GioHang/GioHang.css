@@ -1,0 +1,104 @@
+/* tr: hàng, td: ô, th: ô tiêu đề */
+.tableCart {
+    width: 100%;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+}
+
+.tableCart .cart-product td {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.tableCart .cart-product td a {
+    color: black;
+    text-decoration: none;
+}
+
+.tableCart .cart-product td a:hover {
+    color: #d51c24;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cart-product-img {
+    width: 150px;
+    height: auto;
+}
+
+.tableCart tbody td:nth-child(2) {
+    padding-left: 15px;
+}
+
+.tableCart th:nth-child(1) {
+    width: 50%;
+    /* Điều chỉnh độ rộng của cột Sản phẩm */
+}
+
+.tableCart th:nth-child(2) {
+    width: 20%;
+    /* Điều chỉnh độ rộng của cột Đơn giá */
+}
+
+.tableCart th:nth-child(3) {
+    width: 10%;
+    /* Điều chỉnh độ rộng của cột Số lượng */
+}
+
+.tableCart th:nth-child(4) {
+    width: 20%;
+    /* Điều chỉnh độ rộng của cột Tổng giá */
+}
+
+.tamtinh {
+    font-size: 30px;
+    color: #d51c24;
+}
+
+#thanhtoan {
+    width: 100%;
+    height: 50px;
+    background-color: #e81f29;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#thanhtoan:hover {
+    background-color: #b91921;
+}
+
+
+.ArrowInputTypeNumber {
+    border: 1px solid #ccc;
+    display: inline-flex;
+    margin: 10px 0;
+}
+
+.button-up,
+.button-down {
+    border: none;
+    background-color: white;
+    width: 40px;
+    cursor: pointer;
+    padding: 10px;
+    height: 34px;
+    color: black;
+}
+
+.input-soluong {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    height: 34px;
+    font-weight: bold;
+    border-radius: 0;
+}

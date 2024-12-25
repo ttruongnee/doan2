@@ -1,0 +1,24 @@
+/* Mobile */
+@media (max-width: 740px) {
+    .cart-product-img {
+        width: 150px;
+        height: auto;
+    }
+
+    .tableCart td:nth-child(2) {
+        /*mục tên sản phẩm trong giỏ hàng*/
+        min-width: 250px;
+        font-size: 12px;
+    }
+
+    .tableCart td:nth-child(3),
+    .tableCart td:nth-child(4),
+    .tableCart td:nth-child(5) {
+        /*mục tên sản phẩm trong giỏ hàng*/
+        min-width: 150px;
+    }
+
+    #thanhtoan {
+        margin-top: 10px;
+    }
+}

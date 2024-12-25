@@ -1,0 +1,35 @@
+#BangMaGiamGia {
+    margin-top: 20px;
+}
+
+#BangMaGiamGia th:nth-child(1) {
+    width: 20%;
+}
+
+#BangMaGiamGia th:nth-child(2) {
+    width: 30%;
+}
+
+#BangMaGiamGia th:nth-child(3) {
+    width: 30%;
+}
+
+#BangMaGiamGia th:nth-child(4) {
+    width: 15%;
+}
+
+#BangMaGiamGia th:nth-child(5) {
+    width: 15%;
+}
+
+#BangMaGiamGia td {
+    text-align: center;
+}
+
+@media (max-width: 740px) {
+    #BangMaGiamGia {
+        border-collapse: collapse;
+        display: block;
+        overflow-x: scroll;
+    }
+}

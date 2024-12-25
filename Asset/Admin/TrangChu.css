@@ -1,0 +1,45 @@
+.nav_mobile-list {
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.chucnang {
+    margin: 30px auto !important;
+}
+
+
+.iconandtext {
+    display: flex;
+    justify-content: center;
+}
+
+
+.khung {
+    display: inline-flex;
+
+    /*giữa ngang*/
+    justify-content: center;
+
+    /*giữa dọc*/
+    align-items: center;
+
+    width: 100%;
+    background-color: #ef4b50;
+    font-size: 18px;
+    height: 150px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.khung:hover {
+    background-color: #af3539;
+}
+
+.time-container {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    white-space: pre;
+
+}

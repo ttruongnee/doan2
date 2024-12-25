@@ -1,0 +1,56 @@
+.textbox {
+    display: block;
+    min-width: 360px;
+    height: 40px;
+    margin: 15px 0px;
+    border: 1px solid #e6e6e6;
+    padding: 8px 15px;
+    outline: none;
+}
+
+#dangnhap,
+#dangky,
+#quenmatkhau {
+    min-width: 360px;
+    height: 25px;
+    background-color: #d51c24;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #9c141b;
+}
+
+.chucnang {
+    text-decoration: none;
+    color: #da4764;
+    margin: 8px;
+}
+
+
+.main-input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon-input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 25px;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.hidden {
+    display: none;
+}

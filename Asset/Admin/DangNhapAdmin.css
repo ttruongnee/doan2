@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* kích thước phần tử không bao gồm padding, border và margin */
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d51c24;
+}
+
+.container {
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 162px 100px;
+}
+
+#main-form {
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+.img-logo {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.img-logo img {
+    position: absolute;
+    left: 0;
+    max-width: 200px;
+}
+
+@media (max-width: 740px) {
+    .row {
+        width: 100%;
+    }
+
+    #main {
+        background-color: white;
+        height: 90vh;
+    }
+
+    .container {
+        padding: 0px;
+    }
+
+    .img-logo {
+        justify-content: center;
+    }
+
+    .img-logo img {
+        max-width: 180px;
+        position: relative;
+    }
+
+}
+
+.main-form-title {
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    display: block;
+    padding: 30px 0px;
+}
+
+.main-input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    height: 50px;
+    color: #666666;
+    background: #e6e6e6;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+}
+
+select {
+    /* Ẩn mũi tên mặc định */
+    appearance: unset;
+    cursor: pointer;
+
+}
+
+select option {
+    background: rgb(230, 228, 228);
+}
+
+.icon-input {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 35px;
+    pointer-events: none;
+    color: #666666;
+    transition: all 0.4s;
+}
+
+
+input:focus+.icon-input,
+select:focus+.icon-input {
+    color: #d51c24;
+    padding-left: 28px;
+}
+
+button {
+    font-size: 17px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: #d51c24;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#main-btn-submit:hover,
+#main-btn-submit:focus {
+    background: #a5161e;
+}
+
+.a-black {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.a-black i {
+    font-size: 10px;
+}
+
+.a-black:hover {
+    color: #d51c24;
+}
+
+.bottom10 {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}

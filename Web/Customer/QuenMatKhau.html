@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../Asset/IMG/banner/logo.png" type="image/x-icon">
+    <title>
+        Quên mật khẩu - Nhà xuất bản Kim Đồng
+    </title>
+    <link rel="stylesheet" type="text/css" href="../../Asset/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/TrangChu/TrangChu.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/DanhMuc/DanhMuc.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/DangNhap/DangNhap.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/grid.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/TrangChu/responsiveTrangChu.css">
+    <link rel="stylesheet" type="text/css" href="../../Asset/DanhMuc/responsiveDanhMuc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-top hide-on-mobile">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2 m-2 c-2 displayflex">
+                        <a href="https://www.facebook.com/nxbkimdong" target="_blank" class="icon-link">
+                            <div style="padding: 5px 10px;">
+                                <i class="fab fa-facebook-f icon-white"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/kimdongbooks" target="_blank" class="icon-link">
+                            <div style="padding: 5px 10px;">
+                                <i class="fab fa-instagram icon-white"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/user/KimDongPublishingHou" target="_blank" class="icon-link">
+                            <div style="padding: 5px 10px;">
+                                <i class="fab fa-youtube icon-white"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-5 m-0 c-0 displayflex-pc">
+                        <i class="fas fa-rss icon-white" style="padding: 5px 4px;"></i>
+                        <marquee behavior="scroll" direction="left" class="welcome">
+                            Chào mừng bạn đến với NXB KIM ĐỒNG. Nếu bạn cần giúp đỡ, hãy liên hệ với chúng tôi qua
+                            hotline:
+                            (+84) 1900571595 hoặc email: cskh_online@nxbkimdong.com.vn.
+                        </marquee>
+                    </div>
+                    <div class="col l-5 m-o-2 m-8 c-10 displayflex contact">
+                        <div class="contact-item">
+                            <a class="a-link displayflex" href="tel:(+84) 1900571595">
+                                <i class="fas fa-phone-alt icon-white" style="padding: 5px 4px;"></i>
+                                <p class="contact-item">(+84) 1900571595</p>
+                            </a>
+                        </div>
+                        <div class="contact-item">
+                            <a class="a-link displayflex" href="mailto:cskh_online@nxbkimdong.com.vn">
+                                <i class="fas fa-envelope icon-white" style="padding: 5px 4px; padding-left: 25px;"></i>
+                                <p class="contact-item">cskh_online@nxbkimdong.com.vn</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="pc-tablet-header hide-on-mobile">
+                <div class="grid wide">
+                    <div class="row flex-center">
+                        <form id="header-find" class="col l-4 m-4 c-0 displayflex-nomobile">
+                            <input type="text" placeholder="Tìm kiếm..." class="input-find" required>
+                            <button type="submit" class="button-find">
+                                <i class="fas fa-search icon-white" style="color: #d51e24;"></i>
+                            </button>
+                        </form>
+
+                        <div class="logo col l-4 m-4 c-4 flex-center">
+                            <a href="./TrangChu.html">
+                                <img src="../../Asset/IMG/banner/logo.png" alt="logo"
+                                    style="width: 70px; height: 91px;">
+                            </a>
+                        </div>
+
+                        <div class="col l-4 m-4 c-4 displayflex header-bottom-right">
+                            <div class="user-connect flex-center">
+                                <div id="LoginFalse" class="flex-center">
+                                    <div class="dangnhap flex-center hide-on-tablet"
+                                        onclick="window.location.href='DangNhap.html';">
+                                        <i class="fas fa-sign-in-alt icon-black"
+                                            style="padding: 3px; margin-right: 5px;"></i>
+                                        Đăng nhập
+                                    </div>
+                                    <div class="dangky flex-center hide-on-tablet"
+                                        onclick="window.location.href='DangKy.html';">
+                                        <i class="fas fa-edit icon-black" style="margin-right: 5px;"></i>
+                                        Đăng ký
+                                    </div>
+                                </div>
+                                <div id="LoginTrue" class="flex-center">
+                                    <div class="user hover-red flex-center" style="display: flex;">
+                                        <i class="fas fa-user" style="margin-right: 5px;"></i>
+                                        <span id="NameUserLogin">Tên khách</span>
+                                    </div>
+                                    <div class="dangxuat hover-red flex-center hide-on-tablet hide-on-pclow">
+                                        <i class="fas fa-sign-out-alt" style="margin-right: 5px;"></i>
+                                        Đăng xuất
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="yeuthich flex-center">
+                                <a href="YeuThich.html" style="display: flex; text-decoration: none;">
+                                    <i class="far fa-heart icon-black hover-red" style="font-size: 25px;"></i>
+                                    <p class="soluong">0</p>
+                                </a>
+                            </div>
+                            <div class="giohang flex-center">
+                                <a id="giohang" href="GioHang.html" style="display: flex; text-decoration: none;">
+                                    <i class="fas fa-shopping-bag icon-black hover-red" style="font-size: 25px;"></i>
+                                    <p class="soluong">0</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-header hide-on-tablet-pc">
+                <div class="grid">
+                    <div class="row">
+                        <div class="mobile-logo col c-o-1 c-3">
+                            <a href="./TrangChu.html">
+                                <img src="../../Asset/IMG/banner/logo.png" alt="logo"
+                                    style="width: 70px; height: 90px;">
+                            </a>
+                        </div>
+                        <div class="mobile-header-item col c-8 displayflex">
+                            <div class="user" style="display: flex;">
+                                <i class="fas fa-user icon-black" style="font-size: 25px;"></i>
+                            </div>
+
+                            <div class="giohang">
+                                <a id="giohang" href="GioHang.html" style="display: flex; text-decoration: none;">
+                                    <i class="fas fa-shopping-bag icon-black" style="font-size: 25px;"></i>
+                                    <p class="soluong">0</p>
+                                </a>
+                            </div>
+
+                            <div class="mobile-menu-navbar">
+                                <label for="nav-mobile-input" class="a-link displayflex" style="cursor: pointer;">
+                                    <div style="line-height: 25px; padding-right: 5px;">MENU</div>
+                                    <i class="fa fa-bars"
+                                        style="font-size: 25px; padding-top: 1px; margin-right: 20px;"></i>
+                                </label>
+
+                                <input type="checkbox" class="nav_input" id="nav-mobile-input" style="display: none;">
+
+                                <label for="nav-mobile-input" class="nav_overlay"></label>
+
+                                <div class="nav_mobile">
+
+                                    <label for="nav-mobile-input" class="nav_mobile-close">
+                                        <div style="font-size: 12px; margin: 4px; line-height: 24px;">ĐÓNG</div>
+                                        <i class="fas fa-times"></i>
+                                        <br>
+                                    </label>
+
+                                    <div class="nav_mobile-find displayflex">
+                                        <input type="text" placeholder="Tìm kiếm..." class="input-find">
+                                        <button type="submit" class="button-find">
+                                            <i class="fas fa-search icon-white" style="color: #d51e24;"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="nav_mobile-list">
+                                        <ul class="caplocktext">
+                                            <!-- dùng js tự sinh -->
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="banner">
+        <div class="grid wide hide-on-mobile">
+            <div class="row" style="width: 100%; position: relative;">
+                <div class="col m-12 l-12">
+                    <div class="navbar">
+                        <div class="danhmucsanpham">
+                            <div class="flex-center">
+                                <i class="fas fa-bars icon-white" style="margin-right: 2px;"></i>
+                                <b>DANH MỤC SẢN PHẨM</b>
+                            </div>
+                            <div class="list-box">
+                                <ul class="caplocktext">
+                                    <!-- Dùng js tự sinh -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <ul class="tintucgioithieu">
+                            <li class="tintuc" style="margin-right: 20px;">
+                                <div class="tintucgioithieu-title">
+                                    TIN TỨC
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                                <div class="list-box">
+                                    <ul>
+                                        <a class="danhmuc-a" href="./HoatDong.html">
+                                            <li class="list-box-item">
+                                                Hoạt động
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./SuKien.html">
+                                            <li class="list-box-item">
+                                                Sự kiện
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./DiemSach.html">
+                                            <li class="list-box-item">
+                                                Điểm sách
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./SachGiaSachLau.html">
+                                            <li class="list-box-item">
+                                                Sách giả - Sách lậu
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./LichPhatHanh.html">
+                                            <li class="list-box-item">
+                                                Lịch phát hành sách định kỳ
+                                            </li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="gioithieu">
+                                <div class="tintucgioithieu-title">
+                                    GIỚI THIỆU
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                                <div class="list-box">
+                                    <ul>
+                                        <a class="danhmuc-a" href="./GioiThieuNXB.html">
+                                            <li class="list-box-item">
+                                                Giới thiệu nhà xuất bản
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./TacGiaTacPham.html">
+                                            <li class="list-box-item">
+                                                Tác giả - Tác phẩm
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./CongTacXaHoi.html">
+                                            <li class="list-box-item">
+                                                Công tác xã hội
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./KhenThuong.html">
+                                            <li class="list-box-item">
+                                                Khen thưởng của nhà nước
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./HopTacQuocTe.html">
+                                            <li class="list-box-item">
+                                                Hợp tác quốc tế
+                                            </li>
+                                        </a>
+
+                                        <a class="danhmuc-a" href="./HeThongNhaSach.html">
+                                            <li class="list-box-item">
+                                                Hệ thống nhà sách
+                                            </li>
+                                        </a>
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="grid wide title">
+            <div class="row">
+                <div class="col l-12 m-12 c-12 title-text">
+                    <h2 id="title-top" style="margin-bottom: 3px;">THÁNG SÁCH KIM ĐỒNG</h2>
+                    <div class="title-link">
+                        <a class="a-white hover-red" href="./TrangChu.html">Trang chủ</a>
+                        <span id="title-link-mini">/ Tháng sách Kim Đồng</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="grid wide">
+        <div id="main" class="row flex-center">
+            <form id="main-form">
+                <h1 class="flex-center">Quên mật khẩu</h1>
+                <!-- <div class="main-input">
+                    <input id="matkhau" class="textbox" type="password" placeholder="Mật khẩu" required>
+                    <span class="icon-input">
+                        <i class="fas fa-eye hidden" style="pointer-events:auto; cursor: pointer;"></i>
+                    </span>
+
+                    <span class="icon-input">
+                        <i class="fas fa-eye-slash" style="pointer-events:auto; cursor: pointer;"></i>
+                    </span>
+                </div> -->
+                <input id="email" class="textbox" type="email" placeholder="Nhập email của bạn" required>
+                <button id="quenmatkhau" type="submit"><b>Gửi OTP</b></button>
+
+                <br>
+                <div class="chucnang flex-center">
+                    <a class="a-red" href="./DangKy.html">Đăng ký</a>
+                </div>
+                <div class="chucnang flex-center">
+                    <a class="a-red" href="./DangNhap.html">Đăng nhập</a>
+                </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="footer">
+        <div class="grid wide displayflex">
+            <div class="row displayblock-mobile footer-menu" style="width: 100%;">
+                <div class="col l-3 m-3 c-12 thongtin">
+                    <h3>DỊCH VỤ</h3>
+                    <ul class="thongtin-ul">
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/dieu-khoan-dich-vu">Điều khoản
+                                sử dụng</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/chinh-sach-bao-mat">Chính sách
+                                bảo mật</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/lien-he">Liên hệ</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/he-thong-cua-hang">Hệ thống nhà
+                                sách</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/tra-cuu-don-hang-da-mua">Tra
+                                cứu đơn hàng</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col l-3 m-3 c-12 thongtin">
+                    <h3>HỖ TRỢ</h3>
+                    <ul class="thongtin-ul">
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/huong-dan-dat-hang">Hướng dẫn
+                                đặt hàng</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/chinh-sach-doi-tra">Chính sách
+                                đổi trả - hoàn tiền</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/phuong-thuc-van-chuyen">Phương
+                                thức vận chuyển</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/phuong-thuc-thanh-toan">Phương
+                                thức thanh toán</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black" href="https://nxbkimdong.com.vn/pages/chinh-sach-khach-hang-mua-si">Chính
+                                sách khách hàng mua sỉ</a>
+                        </li>
+
+                        <li class="thongtin-li">
+                            <a class="a-black"
+                                href="https://nxbkimdong.com.vn/blogs/ho-tro/chinh-sach-doi-voi-khach-hang-mua-sach-cho-truong-hoc">Chính
+                                sách khách hàng cho Thư viện - Trường học</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col l-3 m-3 c-12 thongtin">
+                    <h3>NHÀ XUẤT BẢN KIM ĐỒNG</h3>
+                    <div style="line-height: 26px;">
+                        Giám đốc: Bùi Tuấn Nghĩa <br>
+                        Địa chỉ: Số 55 Quang Trung, Nguyễn Du, Hai Bà Trưng, Hà Nội <br>
+                        Số điện thoại: <a class="a-black hover-red" href="tel:(+84) 1900571595">(+84) 1900571595</a>
+                        <br>
+                        Email: <a class="a-black hover-red"
+                            href="mailto:cskh_online@nxbkimdong.com.vn ">cskh_online@nxbkimdong.com.vn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-3 m-3 c-12 thongtin">
+                    <h3>KẾT NỐI MẠNG XÃ HỘI</h3>
+                    <div class="displayflex-nomobile flex-center-mobile">
+                        <a href="https://www.facebook.com/nxbkimdong" target="_blank" class="a-mxh">
+                            <i class="fab fa-facebook-f icon-mxh" style="color: #3B5998;"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/KimDongPublishingHou" target="_blank" class="a-mxh">
+                            <i class="fab fa-youtube icon-mxh" style="color: #FF0000;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/kimdongbooks/" target="_blank" class="a-mxh">
+                            <i class="fab fa-instagram icon-mxh" style="color: #C32AA3;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyrights">
+            COPYRIGHTS © 2021 BY <a class="a-black" target="_blank" href="https://nxbkimdong.myharavan.com/">NXB KIM
+                ĐỒNG</a>
+        </div>
+    </div>
+
+
+    <script src="../../Asset/DanhMuc/GetTheLoai.js"></script>
+    <script src="../../Asset/DangNhap/CheckLogin.js"></script>
+    <!-- <script src="../../Asset/DangNhap/QuenMauKhau.js"></script> -->
+</body>
+
+</html>

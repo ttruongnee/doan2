@@ -1,0 +1,75 @@
+#BangDonHang th:nth-child(1) {
+    width: 15%;
+    min-width: 160px;
+}
+
+#BangDonHang th:nth-child(2) {
+    width: 15%;
+    min-width: 160px;
+}
+
+#BangDonHang th:nth-child(3) {
+    width: 10%;
+}
+
+#BangDonHang th:nth-child(4) {
+    width: 25%;
+    min-width: 260px;
+}
+
+#BangDonHang th:nth-child(5) {
+    width: 15%;
+    min-width: 120px;
+}
+
+#BangDonHang th:nth-child(6) {
+    width: 12%;
+    min-width: 140px;
+}
+
+#BangDonHang th:nth-child(7) {
+    width: 13%;
+    min-width: 100px;
+}
+
+#BangDonHang th:nth-child(8) {
+    width: 5%;
+}
+
+#BangDonHang td {
+    text-align: center;
+    line-height: 23px;
+}
+
+.dialog {
+    width: 600px;
+    height: auto;
+    max-height: 90%;
+    padding: 30px;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+.dialog-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chi-tiet-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.chi-tiet-item img {
+    width: 130px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.chi-tiet-info {
+    font-size: 16px;
+    line-height: 26px;
+}

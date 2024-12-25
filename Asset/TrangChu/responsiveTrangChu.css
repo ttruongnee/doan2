@@ -1,0 +1,280 @@
+.displayflex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-table {
+        display: none;
+    }
+
+    #footer {
+        font-size: 13px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 741px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .list-item .col:nth-child(5) {
+        display: none;
+    }
+
+
+    .dots {
+        bottom: 4px;
+    }
+
+    .dot {
+        padding: 3px;
+        margin: 3px;
+
+    }
+
+    .active {
+        width: 22px;
+    }
+
+
+    .product {
+        max-width: 200px;
+    }
+
+
+    .product-name {
+        font-size: 15px;
+    }
+
+    .product-price {
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .xemthem {
+        padding-top: 6px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .row {
+        width: 100%;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .flex-center-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .displayblock-mobile {
+        display: block;
+    }
+
+    .soluong {
+        font-size: 10px;
+    }
+
+    .input-find {
+        width: 90%;
+        height: 40px;
+        border: none;
+        padding: 0px 10px;
+    }
+
+    .button-find {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+    }
+
+    .nav_mobile-list {
+        margin-top: 10px;
+    }
+
+    .danhmuc-a {
+        text-decoration: none;
+        color: white;
+        border: none;
+    }
+
+    .danhmuc-a:hover {
+        background: rgba(213, 28, 36, 0.9);
+        color: #ccc;
+    }
+
+    .list-box-item {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 3px 0px 3px 20px;
+        font-size: 13px;
+    }
+
+    .banner {
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    .btn-banner {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    .dots {
+        bottom: 0px;
+    }
+
+    .dot {
+        padding: 2px;
+        margin: 4px;
+
+    }
+
+    .active {
+        width: 15px;
+    }
+
+    .list-item .col:nth-child(4),
+    .list-item .col:nth-child(5) {
+        display: none;
+    }
+
+
+    .product {
+        max-width: 160px;
+    }
+
+
+    .product-name {
+        margin: 5px;
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .product-price {
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .xemthem {
+        margin: 0 auto;
+        padding-top: 8px;
+        font-size: 13px;
+    }
+
+    .footer-menu {
+        margin-top: 0px;
+    }
+
+    .thongtin {
+        margin-top: 30px;
+    }
+
+    .thongtin * {
+        text-align: center;
+    }
+
+    .a-mxh {
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .copyrights {
+        font-size: 11px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+}
+
+/* Mobile nhỏ */
+@media (max-width: 520px) {
+
+    .list-item {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .list-item .col:nth-child(3),
+    .list-item .col:nth-child(4),
+    .list-item .col:nth-child(5) {
+        display: none;
+    }
+
+    .xemthem {
+        max-width: 350px;
+        margin: 0 auto;
+        padding-top: 8px;
+    }
+
+}
+
+
+/* TABLET and PC */
+@media (min-width: 741px) {
+    .displayflex-nomobile {
+        display: flex;
+    }
+
+    .flex-center-nomobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide-on-tablet-pc {
+        display: none;
+    }
+}
+
+
+/* PC */
+@media (min-width: 1024px) {
+    .displayflex-pc {
+        display: flex;
+    }
+}
+
+/* PC nhỏ */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .header-top {
+        height: 48px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .hide-on-pclow {
+        display: none;
+    }
+
+
+    .dots {
+        bottom: 7px;
+    }
+
+}

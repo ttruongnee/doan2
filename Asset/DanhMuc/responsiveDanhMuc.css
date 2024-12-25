@@ -1,0 +1,60 @@
+/* Tablet */
+@media (min-width: 741px) and (max-width: 1023px) {
+    .list-item .col:nth-child(5) {
+        display: block;
+    }
+}
+
+/* Mobile*/
+@media (max-width: 740px) {
+    .banner {
+        height: 180px;
+    }
+
+    .title-top {
+        font-size: 15px;
+    }
+
+    .title-link {
+        font-size: 13px;
+    }
+
+    .title-text {
+        position: relative;
+        top: 35%;
+        left: 5%;
+    }
+
+    .list-item {
+        margin-top: 30px;
+    }
+
+    .phantrang {
+        margin-top: 20px;
+    }
+
+    .trang {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 13px;
+        border: 1px solid #777;
+    }
+
+    .list-item .col:nth-child(4),
+    .list-item .col:nth-child(5) {
+        display: block;
+    }
+
+}
+
+/* hiện sản phẩm ẩn ở trang chủ  */
+/* Mobile nhỏ */
+@media (max-width: 520px) {
+
+    .list-item .col:nth-child(3),
+    .list-item .col:nth-child(4),
+    .list-item .col:nth-child(5) {
+        display: block;
+    }
+}

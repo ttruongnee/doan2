@@ -1,0 +1,27 @@
+#BangTheLoai th:nth-child(1) {
+    width: 20%;
+    min-width: 200px;
+}
+
+#BangTheLoai th:nth-child(2) {
+    width: 70%;
+    min-width: 750px;
+}
+
+#BangTheLoai td:nth-child(2) {
+    line-height: 23px;
+}
+
+#BangTheLoai th:nth-child(3) {
+    width: 10%;
+}
+
+#BangTheLoai td:nth-child(1),
+#BangTheLoai td:nth-child(3) {
+    text-align: center;
+}
+
+
+#BangTheLoai td:nth-child(2) {
+    text-align: left;
+}

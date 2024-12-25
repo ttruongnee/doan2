@@ -1,0 +1,44 @@
+/* Mobile*/
+@media (max-width: 740px) {
+    .banner {
+        height: 70px;
+        margin: 10px 0px;
+    }
+
+    .duongdan {
+        top: 0;
+        margin: 10px 15px;
+    }
+
+    .main-product {
+        margin: 0 auto;
+    }
+
+    .main-product-img {
+        padding: 0 12px;
+    }
+
+    .main-thongtin {
+        padding: 0 12px;
+    }
+
+    .main-product-name {
+        font-size: 17px;
+    }
+
+    .main-product-giaban {
+        margin-right: 5px;
+    }
+
+    .main-product-giagoc {
+        margin-right: 5px;
+    }
+
+    .chitietsanpham {
+        width: 100%;
+    }
+
+    .slmua {
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+.container {
+    padding: 5px 100px;
+}
+
+@media (max-width: 740px) {
+    #main {
+        height: 140vh;
+    }
+
+    .container {
+        padding: 0;
+    }
+}
+
+#main-form {
+    height: 685px;
+}
+
+.main-form-title {
+    padding: 25px 0px;
+}

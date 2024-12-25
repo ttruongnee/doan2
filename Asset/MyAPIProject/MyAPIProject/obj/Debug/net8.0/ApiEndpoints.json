@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "MyAPIProject.Controllers.ControllerTheLoai",
+    "Method": "AddTheLoai",
+    "RelativePath": "api/ControllerTheLoai/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "theLoai",
+        "Type": "DTO.DTOTheLoai",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAPIProject.Controllers.ControllerTheLoai",
+    "Method": "DeleteTheLoai",
+    "RelativePath": "api/ControllerTheLoai/Delete/{maTheLoai}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maTheLoai",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAPIProject.Controllers.ControllerTheLoai",
+    "Method": "GetTheLoaiById",
+    "RelativePath": "api/ControllerTheLoai/Find/{maTheLoai}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maTheLoai",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAPIProject.Controllers.ControllerTheLoai",
+    "Method": "GetAllTheLoai",
+    "RelativePath": "api/ControllerTheLoai/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAPIProject.Controllers.ControllerTheLoai",
+    "Method": "UpdateTheLoai",
+    "RelativePath": "api/ControllerTheLoai/Update/{maTheLoai}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maTheLoai",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "theLoai",
+        "Type": "DTO.DTOTheLoai",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyAPIProject.Controllers.ControllerTruyen",
+    "Method": "GetAllTruyen",
+    "RelativePath": "api/ControllerTruyen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

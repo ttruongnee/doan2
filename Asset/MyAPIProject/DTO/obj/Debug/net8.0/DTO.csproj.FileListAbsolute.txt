@@ -1,0 +1,11 @@
+D:\DoAn2\Asset\MyAPIProject\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\DoAn2\Asset\MyAPIProject\DTO\bin\Debug\net8.0\DTO.dll
+D:\DoAn2\Asset\MyAPIProject\DTO\bin\Debug\net8.0\DTO.pdb
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\DTO.dll
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\DTO.pdb
+D:\DoAn2\Asset\MyAPIProject\DTO\obj\Debug\net8.0\ref\DTO.dll
